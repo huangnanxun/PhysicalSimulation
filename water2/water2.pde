@@ -94,8 +94,8 @@ void draw() {
     for(int j=0;j<row-1;j++){
       beginShape(TRIANGLE_STRIP);//triangles
       texture(img);
-      noStroke();   
-      noFill();  
+      //noStroke();   
+      //noFill();  
       for(int i=0;i<row-1;++i){
         float u = map(i, 0, row-1, 0, 1);
         float v1 = map(j, 0, row-1, 0, 1);
